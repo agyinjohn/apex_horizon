@@ -37,7 +37,7 @@ const en = {
   "intro.label": "Who we are",
   "intro.title": "Complex questions deserve clear answers.",
   "intro.p1":
-    "Apex Advisory Group brings together deep market knowledge, rigorous analysis and experienced professionals to help organisations address their most consequential business challenges.",
+    "gthink advisory consult brings together deep market knowledge, rigorous analysis and experienced professionals to help organisations address their most consequential business challenges.",
   "intro.p2":
     "From transactions and market entry to transformation, governance and growth, we combine African market understanding with international professional standards.",
   "intro.cta": "Discover Apex",
@@ -235,7 +235,7 @@ const en = {
   "about.title1": "Independent thinking.",
   "about.title2": "Enduring relationships.",
   "about.intro":
-    "Apex Advisory Group is an independent African advisory firm helping organisations solve complex problems, pursue opportunities and build stronger institutions.",
+    "gthink advisory consult is an independent African advisory firm helping organisations solve complex problems, pursue opportunities and build stronger institutions.",
   "about.whoLabel": "Who we are",
   "about.whoBody":
     "We are an independent professional-services firm working with corporations, investors, public institutions, development organisations and multinational companies. Our teams operate from Accra and Abidjan and undertake assignments across selected African markets.",
@@ -289,7 +289,7 @@ const en = {
   "contact.interestPlaceholder": "Select an area",
   "contact.message": "Message",
   "contact.consent":
-    "I agree to Apex Advisory Group processing my information in accordance with its Privacy Policy.",
+    "I agree to gthink advisory consult processing my information in accordance with its Privacy Policy.",
   "contact.submit": "Submit Enquiry",
   "contact.optional": "optional",
   "contact.required": "required",
@@ -326,7 +326,7 @@ const en = {
   "footer.terms": "Terms of Use",
   "footer.accessibility": "Accessibility",
   "footer.sitemap": "Sitemap",
-  "footer.copyright": "© 2026 Apex Advisory Group. All rights reserved.",
+  "footer.copyright": "© 2026 gthink advisory consult. All rights reserved.",
   "footer.trustLine": "Governance · Confidentiality · Quality · Compliance",
   "footer.trustBody":
     "Committed to responsible advice and internationally recognised professional standards.",
@@ -413,7 +413,7 @@ const fr: Record<DictKey, string> = {
   "intro.label": "Qui nous sommes",
   "intro.title": "Les questions complexes méritent des réponses claires.",
   "intro.p1":
-    "Apex Advisory Group réunit une connaissance approfondie des marchés, une analyse rigoureuse et des professionnels expérimentés pour aider les organisations à traiter leurs enjeux les plus déterminants.",
+    "gthink advisory consult réunit une connaissance approfondie des marchés, une analyse rigoureuse et des professionnels expérimentés pour aider les organisations à traiter leurs enjeux les plus déterminants.",
   "intro.p2":
     "Des transactions et de l'entrée sur de nouveaux marchés à la transformation, la gouvernance et la croissance, nous associons une compréhension fine des marchés africains aux standards professionnels internationaux.",
   "intro.cta": "Découvrir Apex",
@@ -600,7 +600,7 @@ const fr: Record<DictKey, string> = {
   "about.title1": "Une pensée indépendante.",
   "about.title2": "Des relations durables.",
   "about.intro":
-    "Apex Advisory Group est un cabinet de conseil africain indépendant qui accompagne les organisations dans la résolution de problèmes complexes, la saisie d'opportunités et le renforcement de leurs institutions.",
+    "gthink advisory consult est un cabinet de conseil africain indépendant qui accompagne les organisations dans la résolution de problèmes complexes, la saisie d'opportunités et le renforcement de leurs institutions.",
   "about.whoLabel": "Qui nous sommes",
   "about.whoBody":
     "Nous sommes un cabinet de services professionnels indépendant au service des entreprises, des investisseurs, des institutions publiques, des organisations de développement et des groupes multinationaux. Nos équipes opèrent depuis Accra et Abidjan et mènent des missions sur des marchés africains sélectionnés.",
@@ -652,7 +652,7 @@ const fr: Record<DictKey, string> = {
   "contact.interestPlaceholder": "Sélectionnez un domaine",
   "contact.message": "Message",
   "contact.consent":
-    "J'accepte que Apex Advisory Group traite mes informations conformément à sa politique de confidentialité.",
+    "J'accepte que gthink advisory consult traite mes informations conformément à sa politique de confidentialité.",
   "contact.submit": "Envoyer la demande",
   "contact.optional": "facultatif",
   "contact.required": "obligatoire",
@@ -688,7 +688,7 @@ const fr: Record<DictKey, string> = {
   "footer.terms": "Conditions d'utilisation",
   "footer.accessibility": "Accessibilité",
   "footer.sitemap": "Plan du site",
-  "footer.copyright": "© 2026 Apex Advisory Group. Tous droits réservés.",
+  "footer.copyright": "© 2026 gthink advisory consult. Tous droits réservés.",
   "footer.trustLine": "Gouvernance · Confidentialité · Qualité · Conformité",
   "footer.trustBody":
     "Engagés pour un conseil responsable et des standards professionnels reconnus à l'international.",

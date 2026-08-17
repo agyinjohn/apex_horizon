@@ -7,12 +7,12 @@ import { useLang } from "@/lib/i18n";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Terms of Use — Apex Advisory Group" },
+      { title: "Terms of Use — gthink advisory consult" },
       {
         name: "description",
-        content: "The terms governing use of the Apex Advisory Group website.",
+        content: "The terms governing use of the gthink advisory consult website.",
       },
-      { property: "og:title", content: "Terms of Use — Apex Advisory Group" },
+      { property: "og:title", content: "Terms of Use — gthink advisory consult" },
       { property: "og:description", content: "Conditions applicable to visitors of this website." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -30,8 +30,8 @@ function TermsPage() {
         label={pick({ en: "Legal", fr: "Mentions légales" })}
         title={pick({ en: "Terms of Use", fr: "Conditions d'utilisation" })}
         body={pick({
-          en: "These terms govern your use of the Apex Advisory Group website.",
-          fr: "Les présentes conditions régissent votre utilisation du site Apex Advisory Group.",
+          en: "These terms govern your use of the gthink advisory consult website.",
+          fr: "Les présentes conditions régissent votre utilisation du site gthink advisory consult.",
         })}
       />
       <Section>
@@ -60,8 +60,8 @@ function TermsPage() {
               </h2>
               <p className="mt-3">
                 {pick({
-                  en: "All content on this site, including text, images and design, is the property of Apex Advisory Group or its licensors and may not be reproduced without prior written consent.",
-                  fr: "L'ensemble du contenu de ce site, y compris textes, images et éléments de design, est la propriété d'Apex Advisory Group ou de ses concédants et ne peut être reproduit sans accord écrit préalable.",
+                  en: "All content on this site, including text, images and design, is the property of gthink advisory consult or its licensors and may not be reproduced without prior written consent.",
+                  fr: "L'ensemble du contenu de ce site, y compris textes, images et éléments de design, est la propriété d'gthink advisory consult ou de ses concédants et ne peut être reproduit sans accord écrit préalable.",
                 })}
               </p>
             </div>
@@ -82,8 +82,8 @@ function TermsPage() {
               </h2>
               <p className="mt-3">
                 {pick({
-                  en: "Apex Advisory Group accepts no liability for any loss arising from reliance on the content of this website.",
-                  fr: "Apex Advisory Group décline toute responsabilité pour toute perte résultant de l'utilisation du contenu de ce site.",
+                  en: "gthink advisory consult accepts no liability for any loss arising from reliance on the content of this website.",
+                  fr: "gthink advisory consult décline toute responsabilité pour toute perte résultant de l'utilisation du contenu de ce site.",
                 })}
               </p>
             </div>
@@ -93,8 +93,8 @@ function TermsPage() {
               </h2>
               <p className="mt-3">
                 {pick({
-                  en: "These terms are governed by the laws applicable in the jurisdictions in which Apex Advisory Group operates.",
-                  fr: "Les présentes conditions sont régies par les lois applicables dans les juridictions où Apex Advisory Group opère.",
+                  en: "These terms are governed by the laws applicable in the jurisdictions in which gthink advisory consult operates.",
+                  fr: "Les présentes conditions sont régies par les lois applicables dans les juridictions où gthink advisory consult opère.",
                 })}
               </p>
             </div>

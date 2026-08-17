@@ -106,8 +106,8 @@ export function JobApplicationForm({ roleLabel }: { roleLabel?: string | undefin
         label={
           <>
             {pick({
-              en: "By submitting your application, you consent to Apex Advisory Group processing your personal information for recruitment purposes in accordance with our ",
-              fr: "En soumettant votre candidature, vous consentez à ce qu'Apex Advisory Group traite vos données personnelles à des fins de recrutement, conformément à notre ",
+              en: "By submitting your application, you consent to gthink advisory consult processing your personal information for recruitment purposes in accordance with our ",
+              fr: "En soumettant votre candidature, vous consentez à ce qu'gthink advisory consult traite vos données personnelles à des fins de recrutement, conformément à notre ",
             })}
             <AppLink to="/privacy" className="text-primary underline underline-offset-2 hover:text-navy">
               {pick({ en: "Privacy Notice", fr: "avis de confidentialité" })}

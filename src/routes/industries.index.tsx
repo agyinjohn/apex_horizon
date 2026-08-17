@@ -9,13 +9,13 @@ import { industries } from "@/data/industries";
 export const Route = createFileRoute("/industries/")({
   head: () => ({
     meta: [
-      { title: "Industries — Apex Advisory Group" },
+      { title: "Industries — gthink advisory consult" },
       {
         name: "description",
         content:
           "Sector experience across financial services, real estate and infrastructure, consumer, energy, technology, public sector and manufacturing in Africa.",
       },
-      { property: "og:title", content: "Industries — Apex Advisory Group" },
+      { property: "og:title", content: "Industries — gthink advisory consult" },
       { property: "og:description", content: "Experience where it matters." },
       { property: "og:url", content: "/industries" },
     ],

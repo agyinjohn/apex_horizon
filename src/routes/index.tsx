@@ -29,13 +29,13 @@ import { insights } from "@/data/insights";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Apex Advisory Group — Independent African Advisory Firm" },
+      { title: "gthink advisory consult — Independent African Advisory Firm" },
       {
         name: "description",
         content:
           "Independent advisory firm in Accra and Abidjan. Strategy, transactions, risk and market intelligence for African markets, to international standards.",
       },
-      { property: "og:title", content: "Apex Advisory Group — Independent African Advisory Firm" },
+      { property: "og:title", content: "gthink advisory consult — Independent African Advisory Firm" },
       {
         property: "og:description",
         content:

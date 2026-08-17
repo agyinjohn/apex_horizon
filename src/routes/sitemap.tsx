@@ -14,12 +14,12 @@ import { programmes } from "@/data/programmes";
 export const Route = createFileRoute("/sitemap")({
   head: () => ({
     meta: [
-      { title: "Sitemap — Apex Advisory Group" },
+      { title: "Sitemap — gthink advisory consult" },
       {
         name: "description",
-        content: "A structured index of every page on the Apex Advisory Group website.",
+        content: "A structured index of every page on the gthink advisory consult website.",
       },
-      { property: "og:title", content: "Sitemap — Apex Advisory Group" },
+      { property: "og:title", content: "Sitemap — gthink advisory consult" },
       { property: "og:description", content: "Full directory of pages across the site." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

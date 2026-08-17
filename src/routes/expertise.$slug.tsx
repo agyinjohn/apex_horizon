@@ -16,9 +16,9 @@ export const Route = createFileRoute("/expertise/$slug")({
   },
   head: ({ loaderData, params }) => {
     if (!loaderData) {
-      return { meta: [{ title: "Not found — Apex Advisory Group" }, { name: "robots", content: "noindex" }] };
+      return { meta: [{ title: "Not found — gthink advisory consult" }, { name: "robots", content: "noindex" }] };
     }
-    const title = `${loaderData.title} — Apex Advisory Group`;
+    const title = `${loaderData.title} — gthink advisory consult`;
     return {
       meta: [
         { title },

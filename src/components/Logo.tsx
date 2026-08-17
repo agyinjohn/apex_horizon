@@ -9,7 +9,7 @@ export function Logo({ tone = "dark", className, onNavigate }: Props) {
     <AppLink
       to="/"
       onClick={onNavigate}
-      aria-label="Apex Advisory Group — home"
+      aria-label="gthink advisory consult — home"
       className={cn("group inline-flex flex-col leading-none", className)}
     >
       <span

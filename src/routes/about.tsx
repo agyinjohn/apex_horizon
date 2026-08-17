@@ -17,13 +17,13 @@ import { people } from "@/data/people";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Apex Advisory Group" },
+      { title: "About — gthink advisory consult" },
       {
         name: "description",
         content:
-          "Apex Advisory Group is an independent African advisory firm operating from Accra and Abidjan, with assignment experience across the continent.",
+          "gthink advisory consult is an independent African advisory firm operating from Accra and Abidjan, with assignment experience across the continent.",
       },
-      { property: "og:title", content: "About — Apex Advisory Group" },
+      { property: "og:title", content: "About — gthink advisory consult" },
       { property: "og:description", content: "Independent thinking. Enduring relationships." },
       { property: "og:url", content: "/about" },
     ],

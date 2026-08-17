@@ -8,13 +8,13 @@ import { offices } from "@/data/markets";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Apex Advisory Group" },
+      { title: "Contact — gthink advisory consult" },
       {
         name: "description",
         content:
-          "Speak with Apex Advisory Group in Accra or Abidjan about strategy, transactions, risk or market intelligence.",
+          "Speak with gthink advisory consult in Accra or Abidjan about strategy, transactions, risk or market intelligence.",
       },
-      { property: "og:title", content: "Contact — Apex Advisory Group" },
+      { property: "og:title", content: "Contact — gthink advisory consult" },
       { property: "og:description", content: "Tell us what you're working on." },
       { property: "og:url", content: "/contact" },
     ],

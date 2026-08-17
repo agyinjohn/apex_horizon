@@ -8,12 +8,12 @@ import { useLang } from "@/lib/i18n";
 export const Route = createFileRoute("/cookie-policy")({
   head: () => ({
     meta: [
-      { title: "Cookie Policy — Apex Advisory Group" },
+      { title: "Cookie Policy — gthink advisory consult" },
       {
         name: "description",
-        content: "How Apex Advisory Group uses cookies and similar technologies on this website.",
+        content: "How gthink advisory consult uses cookies and similar technologies on this website.",
       },
-      { property: "og:title", content: "Cookie Policy — Apex Advisory Group" },
+      { property: "og:title", content: "Cookie Policy — gthink advisory consult" },
       { property: "og:description", content: "Details of essential, analytics and marketing cookies." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

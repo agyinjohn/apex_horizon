@@ -79,14 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Apex Advisory Group — African Advisory Firm" },
+      { title: "gthink advisory consult — African Advisory Firm" },
       {
         name: "description",
         content:
           "Independent African advisory firm. Trust, competence, people, African knowledge, international standards.",
       },
-      { name: "author", content: "Apex Advisory Group" },
-      { property: "og:site_name", content: "Apex Advisory Group" },
+      { name: "author", content: "gthink advisory consult" },
+      { property: "og:site_name", content: "gthink advisory consult" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -106,7 +106,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: "Apex Advisory Group",
+          name: "gthink advisory consult",
           description:
             "Independent African advisory firm providing strategy, transaction, financial, risk, technology and market intelligence advisory services.",
           areaServed: ["Ghana", "Côte d'Ivoire", "Africa"],

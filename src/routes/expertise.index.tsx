@@ -12,13 +12,13 @@ import { featuredCases } from "@/data/case-studies";
 export const Route = createFileRoute("/expertise/")({
   head: () => ({
     meta: [
-      { title: "Expertise — Apex Advisory Group" },
+      { title: "Expertise — gthink advisory consult" },
       {
         name: "description",
         content:
           "Strategy, transactions, financial advisory, risk and governance, technology and market intelligence for organisations operating in African markets.",
       },
-      { property: "og:title", content: "Expertise — Apex Advisory Group" },
+      { property: "og:title", content: "Expertise — gthink advisory consult" },
       {
         property: "og:description",
         content: "Expertise built around the decisions that matter.",

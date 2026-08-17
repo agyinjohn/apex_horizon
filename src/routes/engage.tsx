@@ -13,9 +13,9 @@ export const Route = createFileRoute("/engage")({
       {
         name: "description",
         content:
-          "Four clear routes into Apex Advisory Group: advisory support, a formal RFP, Apex Academy training, or a career with the firm.",
+          "Four clear routes into gthink advisory consult: advisory support, a formal RFP, Apex Academy training, or a career with the firm.",
       },
-      { property: "og:title", content: "Engage Apex Advisory Group" },
+      { property: "og:title", content: "Engage gthink advisory consult" },
       {
         property: "og:description",
         content: "Advisory support, RFP submission, training and careers — one structured gateway.",

@@ -40,12 +40,12 @@ export const people: Person[] = [
     office: { en: "Accra, Ghana", fr: "Accra, Ghana" },
     bio: {
       en: [
-        "Daniel leads Apex Advisory Group and advises boards and investors on strategy, transactions and institutional change across West Africa.",
+        "Daniel leads gthink advisory consult and advises boards and investors on strategy, transactions and institutional change across West Africa.",
         "He has spent his career at the point where capital meets execution — supporting acquisitions, restructurings and growth programmes in financial services and infrastructure, and advising management teams through periods of significant change.",
         "He is a frequent contributor to discussions on African capital markets and the professional standards required to attract long-term investment.",
       ],
       fr: [
-        "Daniel dirige Apex Advisory Group et conseille conseils d'administration et investisseurs sur la stratégie, les transactions et le changement institutionnel en Afrique de l'Ouest.",
+        "Daniel dirige gthink advisory consult et conseille conseils d'administration et investisseurs sur la stratégie, les transactions et le changement institutionnel en Afrique de l'Ouest.",
         "Sa carrière s'est construite à la jonction du capital et de l'exécution : acquisitions, restructurations et programmes de croissance dans les services financiers et les infrastructures, aux côtés d'équipes de direction en pleine transformation.",
         "Il intervient régulièrement dans les débats sur les marchés de capitaux africains et les standards professionnels nécessaires pour attirer des investissements de long terme.",
       ],

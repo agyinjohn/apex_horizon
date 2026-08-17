@@ -8,13 +8,13 @@ import { useLang } from "@/lib/i18n";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — Apex Advisory Group" },
+      { title: "Privacy Policy — gthink advisory consult" },
       {
         name: "description",
         content:
-          "How Apex Advisory Group collects, uses and protects personal information submitted through enquiries, RFPs, training and recruitment.",
+          "How gthink advisory consult collects, uses and protects personal information submitted through enquiries, RFPs, training and recruitment.",
       },
-      { property: "og:title", content: "Privacy Policy — Apex Advisory Group" },
+      { property: "og:title", content: "Privacy Policy — gthink advisory consult" },
       {
         property: "og:description",
         content: "Our approach to personal data across advisory, training and recruitment.",
@@ -35,8 +35,8 @@ function PrivacyPage() {
         label={pick({ en: "Legal", fr: "Mentions légales" })}
         title={pick({ en: "Privacy Policy", fr: "Politique de confidentialité" })}
         body={pick({
-          en: "This page explains what personal information Apex Advisory Group collects, why, and how it is protected.",
-          fr: "Cette page explique quelles informations personnelles Apex Advisory Group collecte, pourquoi, et comment elles sont protégées.",
+          en: "This page explains what personal information gthink advisory consult collects, why, and how it is protected.",
+          fr: "Cette page explique quelles informations personnelles gthink advisory consult collecte, pourquoi, et comment elles sont protégées.",
         })}
       />
       <Section>

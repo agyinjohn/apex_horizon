@@ -8,12 +8,12 @@ import { useLang } from "@/lib/i18n";
 export const Route = createFileRoute("/accessibility")({
   head: () => ({
     meta: [
-      { title: "Accessibility — Apex Advisory Group" },
+      { title: "Accessibility — gthink advisory consult" },
       {
         name: "description",
-        content: "Our commitment to making the Apex Advisory Group website accessible.",
+        content: "Our commitment to making the gthink advisory consult website accessible.",
       },
-      { property: "og:title", content: "Accessibility — Apex Advisory Group" },
+      { property: "og:title", content: "Accessibility — gthink advisory consult" },
       { property: "og:description", content: "Accessibility commitments and feedback channel." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

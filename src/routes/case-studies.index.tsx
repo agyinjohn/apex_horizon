@@ -13,13 +13,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/case-studies/")({
   head: () => ({
     meta: [
-      { title: "Case Studies — Apex Advisory Group" },
+      { title: "Case Studies — gthink advisory consult" },
       {
         name: "description",
         content:
           "Illustrative advisory engagements across financial services, energy, consumer, technology and the public sector in African markets.",
       },
-      { property: "og:title", content: "Case Studies — Apex Advisory Group" },
+      { property: "og:title", content: "Case Studies — gthink advisory consult" },
       { property: "og:description", content: "Evidence, not adjectives." },
       { property: "og:url", content: "/case-studies" },
     ],

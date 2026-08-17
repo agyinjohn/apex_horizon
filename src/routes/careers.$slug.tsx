@@ -16,12 +16,12 @@ export const Route = createFileRoute("/careers/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Not found — Apex Advisory Group" },
+          { title: "Not found — gthink advisory consult" },
           { name: "robots", content: "noindex" },
         ],
       };
     }
-    const title = `${loaderData.title} — Apex Advisory Group`;
+    const title = `${loaderData.title} — gthink advisory consult`;
     return {
       meta: [
         { title },

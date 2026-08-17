@@ -17,14 +17,14 @@ export const Route = createFileRoute("/insights/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Not found — Apex Advisory Group" },
+          { title: "Not found — gthink advisory consult" },
           { name: "robots", content: "noindex" },
         ],
       };
     }
     return {
       meta: [
-        { title: `${loaderData.title} — Apex Advisory Group` },
+        { title: `${loaderData.title} — gthink advisory consult` },
         { name: "description", content: loaderData.standfirst },
         { property: "og:title", content: loaderData.title },
         { property: "og:description", content: loaderData.standfirst },
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/insights/$slug")({
             "@type": "Article",
             headline: loaderData.title,
             description: loaderData.standfirst,
-            publisher: { "@type": "Organization", name: "Apex Advisory Group" },
+            publisher: { "@type": "Organization", name: "gthink advisory consult" },
           }),
         },
       ],

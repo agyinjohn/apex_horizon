@@ -22,13 +22,13 @@ import { jobs, type JobCategory } from "@/data/jobs";
 export const Route = createFileRoute("/careers/")({
   head: () => ({
     meta: [
-      { title: "Careers — Apex Advisory Group" },
+      { title: "Careers — gthink advisory consult" },
       {
         name: "description",
         content:
-          "Build an advisory career at Apex Advisory Group: experienced professionals, graduate opportunities and internships across Accra and Abidjan, in English and French.",
+          "Build an advisory career at gthink advisory consult: experienced professionals, graduate opportunities and internships across Accra and Abidjan, in English and French.",
       },
-      { property: "og:title", content: "Careers — Apex Advisory Group" },
+      { property: "og:title", content: "Careers — gthink advisory consult" },
       {
         property: "og:description",
         content:

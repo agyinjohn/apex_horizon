@@ -9,13 +9,13 @@ import { offices } from "@/data/markets";
 export const Route = createFileRoute("/locations")({
   head: () => ({
     meta: [
-      { title: "Locations — Apex Advisory Group" },
+      { title: "Locations — gthink advisory consult" },
       {
         name: "description",
         content:
-          "Apex Advisory Group operates from Accra, Ghana and Abidjan, Côte d'Ivoire, with assignment experience across selected African markets.",
+          "gthink advisory consult operates from Accra, Ghana and Abidjan, Côte d'Ivoire, with assignment experience across selected African markets.",
       },
-      { property: "og:title", content: "Locations — Apex Advisory Group" },
+      { property: "og:title", content: "Locations — gthink advisory consult" },
       { property: "og:description", content: "Two operating markets, one firm." },
       { property: "og:url", content: "/locations" },
     ],

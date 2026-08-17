@@ -20,13 +20,13 @@ import { industries } from "@/data/industries";
 export const Route = createFileRoute("/request-proposal")({
   head: () => ({
     meta: [
-      { title: "Request a Proposal — Apex Advisory Group" },
+      { title: "Request a Proposal — gthink advisory consult" },
       {
         name: "description",
         content:
           "Tell us what you need and let Apex prepare an appropriate engagement approach. A lighter route for prospects without a formal RFP.",
       },
-      { property: "og:title", content: "Request a Proposal — Apex Advisory Group" },
+      { property: "og:title", content: "Request a Proposal — gthink advisory consult" },
       {
         property: "og:description",
         content: "A concise way to start a conversation about an engagement.",

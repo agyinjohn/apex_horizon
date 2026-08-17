@@ -9,13 +9,13 @@ import { insights } from "@/data/insights";
 export const Route = createFileRoute("/insights/")({
   head: () => ({
     meta: [
-      { title: "Insights — Apex Advisory Group" },
+      { title: "Insights — gthink advisory consult" },
       {
         name: "description",
         content:
-          "Perspective on African markets: investment, governance, energy, consumer demand and institutional reform from Apex Advisory Group.",
+          "Perspective on African markets: investment, governance, energy, consumer demand and institutional reform from gthink advisory consult.",
       },
-      { property: "og:title", content: "Insights — Apex Advisory Group" },
+      { property: "og:title", content: "Insights — gthink advisory consult" },
       { property: "og:description", content: "Perspective for decisions that matter." },
       { property: "og:url", content: "/insights" },
     ],

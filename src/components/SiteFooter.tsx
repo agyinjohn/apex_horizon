@@ -43,14 +43,14 @@ export function SiteFooter() {
               <div className="mt-3 flex items-center gap-2">
                 <a
                   href="https://www.linkedin.com/"
-                  aria-label="Apex Advisory Group on LinkedIn"
+                  aria-label="gthink advisory consult on LinkedIn"
                   className="flex min-h-11 min-w-11 items-center justify-center border border-white/20 text-white/75 transition-colors hover:border-white hover:text-white"
                 >
                   <Linkedin className="size-4" strokeWidth={1.6} />
                 </a>
                 <a
                   href="https://www.youtube.com/"
-                  aria-label="Apex Advisory Group on YouTube"
+                  aria-label="gthink advisory consult on YouTube"
                   className="flex min-h-11 min-w-11 items-center justify-center border border-white/20 text-white/75 transition-colors hover:border-white hover:text-white"
                 >
                   <Youtube className="size-4" strokeWidth={1.6} />
