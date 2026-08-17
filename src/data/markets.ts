@@ -113,11 +113,11 @@ export const offices: Office[] = [
     city: { en: "Accra", fr: "Accra" },
     country: { en: "Ghana", fr: "Ghana" },
     address: {
-      en: ["Apex House, 12 Independence Avenue", "Airport Commercial Area", "Accra, Ghana"],
-      fr: ["Apex House, 12 Independence Avenue", "Airport Commercial Area", "Accra, Ghana"],
+      en: ["gthink House, 12 Independence Avenue", "Airport Commercial Area", "Accra, Ghana"],
+      fr: ["gthink House, 12 Independence Avenue", "Airport Commercial Area", "Accra, Ghana"],
     },
     phone: "+233 (0) 30 000 0000",
-    email: "accra@apexadvisory.example",
+    email: "accra@gthinkadvisory.example",
     image: accra,
     imageAlt: {
       en: "Modern commercial avenue in Accra, Ghana",
@@ -129,11 +129,11 @@ export const offices: Office[] = [
     city: { en: "Abidjan", fr: "Abidjan" },
     country: { en: "Côte d'Ivoire", fr: "Côte d'Ivoire" },
     address: {
-      en: ["Immeuble Apex, 8 Boulevard Lagunaire", "Plateau", "Abidjan, Côte d'Ivoire"],
-      fr: ["Immeuble Apex, 8 Boulevard Lagunaire", "Plateau", "Abidjan, Côte d'Ivoire"],
+      en: ["Immeuble gthink, 8 Boulevard Lagunaire", "Plateau", "Abidjan, Côte d'Ivoire"],
+      fr: ["Immeuble gthink, 8 Boulevard Lagunaire", "Plateau", "Abidjan, Côte d'Ivoire"],
     },
     phone: "+225 (0) 27 00 00 00",
-    email: "abidjan@apexadvisory.example",
+    email: "abidjan@gthinkadvisory.example",
     image: abidjan,
     imageAlt: {
       en: "Abidjan Plateau business district seen across the lagoon",

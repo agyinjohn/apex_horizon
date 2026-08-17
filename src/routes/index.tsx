@@ -19,6 +19,7 @@ import { StandardsStrip } from "@/components/sections/StandardsStrip";
 import { ProactiveSection } from "@/components/sections/ProactiveSection";
 import { AcademySection } from "@/components/sections/AcademySection";
 import { CareersTeaser } from "@/components/sections/CareersTeaser";
+import { TechArchitectureSection } from "@/components/sections/TechArchitectureSection";
 
 import { expertise } from "@/data/expertise";
 import { industries } from "@/data/industries";
@@ -359,6 +360,8 @@ function Home() {
 
       <AcademySection />
       <CareersTeaser />
+
+      <TechArchitectureSection />
 
 
       {/* Insights */}

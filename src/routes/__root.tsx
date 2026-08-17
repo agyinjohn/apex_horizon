@@ -15,6 +15,7 @@ import { LanguageProvider } from "@/lib/i18n";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CookieConsent } from "@/components/CookieConsent";
+import { AiAssistant } from "@/components/AiAssistant";
 
 function NotFoundComponent() {
   return (
@@ -113,13 +114,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           address: [
             {
               "@type": "PostalAddress",
-              streetAddress: "Apex House, 12 Independence Avenue",
+              streetAddress: "gthink House, 12 Independence Avenue",
               addressLocality: "Accra",
               addressCountry: "GH",
             },
             {
               "@type": "PostalAddress",
-              streetAddress: "Immeuble Apex, 8 Boulevard Lagunaire",
+              streetAddress: "Immeuble gthink, 8 Boulevard Lagunaire",
               addressLocality: "Abidjan",
               addressCountry: "CI",
             },
@@ -167,6 +168,7 @@ function RootComponent() {
         </main>
         <SiteFooter />
         <CookieConsent />
+        <AiAssistant />
       </LanguageProvider>
     </QueryClientProvider>
   );

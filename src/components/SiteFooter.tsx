@@ -67,6 +67,8 @@ export function SiteFooter() {
                 { to: "/people", label: t("nav.ourPeople") },
                 { to: "/locations", label: t("nav.locations") },
                 { to: "/careers", label: t("nav.careers") },
+                { to: "/gh", label: pick({ en: "🇬🇭 Ghana Zone", fr: "🇬🇭 Zone Ghana" }) },
+                { to: "/ci", label: pick({ en: "🇨🇮 Côte d'Ivoire Zone", fr: "🇨🇮 Zone Côte d'Ivoire" }) },
               ]}
             />
             <Column

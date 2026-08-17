@@ -12,9 +12,11 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AccessibilityRouteImport } from './routes/accessibility'
+import { Route as CiRouteImport } from './routes/ci'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
 import { Route as EngageRouteImport } from './routes/engage'
+import { Route as GhRouteImport } from './routes/gh'
 import { Route as LocationsRouteImport } from './routes/locations'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as RequestProposalRouteImport } from './routes/request-proposal'
@@ -57,6 +59,11 @@ const AccessibilityRoute = AccessibilityRouteImport.update({
   path: '/accessibility',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CiRoute = CiRouteImport.update({
+  id: '/ci',
+  path: '/ci',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
@@ -70,6 +77,11 @@ const CookiePolicyRoute = CookiePolicyRouteImport.update({
 const EngageRoute = EngageRouteImport.update({
   id: '/engage',
   path: '/engage',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GhRoute = GhRouteImport.update({
+  id: '/gh',
+  path: '/gh',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsRoute = LocationsRouteImport.update({
@@ -207,9 +219,11 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/accessibility': typeof AccessibilityRoute
+  '/ci': typeof CiRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/engage': typeof EngageRoute
+  '/gh': typeof GhRoute
   '/locations': typeof LocationsRoute
   '/privacy': typeof PrivacyRoute
   '/request-proposal': typeof RequestProposalRoute
@@ -241,9 +255,11 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/accessibility': typeof AccessibilityRoute
+  '/ci': typeof CiRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/engage': typeof EngageRoute
+  '/gh': typeof GhRoute
   '/locations': typeof LocationsRoute
   '/privacy': typeof PrivacyRoute
   '/request-proposal': typeof RequestProposalRoute
@@ -276,9 +292,11 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/accessibility': typeof AccessibilityRoute
+  '/ci': typeof CiRoute
   '/contact': typeof ContactRoute
   '/cookie-policy': typeof CookiePolicyRoute
   '/engage': typeof EngageRoute
+  '/gh': typeof GhRoute
   '/locations': typeof LocationsRoute
   '/privacy': typeof PrivacyRoute
   '/request-proposal': typeof RequestProposalRoute
@@ -312,9 +330,11 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/accessibility'
+    | '/ci'
     | '/contact'
     | '/cookie-policy'
     | '/engage'
+    | '/gh'
     | '/locations'
     | '/privacy'
     | '/request-proposal'
@@ -346,9 +366,11 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/accessibility'
+    | '/ci'
     | '/contact'
     | '/cookie-policy'
     | '/engage'
+    | '/gh'
     | '/locations'
     | '/privacy'
     | '/request-proposal'
@@ -380,9 +402,11 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/accessibility'
+    | '/ci'
     | '/contact'
     | '/cookie-policy'
     | '/engage'
+    | '/gh'
     | '/locations'
     | '/privacy'
     | '/request-proposal'
@@ -415,9 +439,11 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   AccessibilityRoute: typeof AccessibilityRoute
+  CiRoute: typeof CiRoute
   ContactRoute: typeof ContactRoute
   CookiePolicyRoute: typeof CookiePolicyRoute
   EngageRoute: typeof EngageRoute
+  GhRoute: typeof GhRoute
   LocationsRoute: typeof LocationsRoute
   PrivacyRoute: typeof PrivacyRoute
   RequestProposalRoute: typeof RequestProposalRoute
@@ -469,6 +495,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AccessibilityRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ci': {
+      id: '/ci'
+      path: '/ci'
+      fullPath: '/ci'
+      preLoaderRoute: typeof CiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contact': {
       id: '/contact'
       path: '/contact'
@@ -488,6 +521,13 @@ declare module '@tanstack/react-router' {
       path: '/engage'
       fullPath: '/engage'
       preLoaderRoute: typeof EngageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gh': {
+      id: '/gh'
+      path: '/gh'
+      fullPath: '/gh'
+      preLoaderRoute: typeof GhRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations': {
@@ -679,9 +719,11 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   AccessibilityRoute: AccessibilityRoute,
+  CiRoute: CiRoute,
   ContactRoute: ContactRoute,
   CookiePolicyRoute: CookiePolicyRoute,
   EngageRoute: EngageRoute,
+  GhRoute: GhRoute,
   LocationsRoute: LocationsRoute,
   PrivacyRoute: PrivacyRoute,
   RequestProposalRoute: RequestProposalRoute,
