@@ -1,0 +1,223 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * APEX ADVISORY GROUP — design system
+ * Institutional blue identity, editorial typography, disciplined neutrals.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Brand */
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-foreground: var(--navy-foreground);
+  --color-brand: var(--brand);
+  --color-brand-mid: var(--brand-mid);
+  --color-brand-pale: var(--brand-pale);
+  --color-surface: var(--surface);
+  --color-hairline: var(--hairline);
+}
+
+:root {
+  --radius: 0.125rem;
+
+  --font-heading: "Manrope", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.2217 0.0168 264.15);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2217 0.0168 264.15);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2217 0.0168 264.15);
+
+  --primary: oklch(0.543 0.0916 262.19);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.9728 0.0057 264.53);
+  --secondary-foreground: oklch(0.3004 0.0729 260.18);
+
+  --muted: oklch(0.9728 0.0057 264.53);
+  --muted-foreground: oklch(0.492 0.0202 264.3);
+
+  --accent: oklch(0.9197 0.0197 260.17);
+  --accent-foreground: oklch(0.3004 0.0729 260.18);
+
+  --destructive: oklch(0.55 0.19 25);
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.9002 0.0102 264.5);
+  --input: oklch(0.8802 0.0102 264.5);
+  --ring: oklch(0.543 0.0916 262.19);
+
+  --navy: oklch(0.3004 0.0729 260.18);
+  --navy-deep: oklch(0.2372 0.0543 260.69);
+  --navy-foreground: oklch(0.98 0.004 264.5);
+  --brand: oklch(0.543 0.0916 262.19);
+  --brand-mid: oklch(0.6519 0.0731 262.71);
+  --brand-pale: oklch(0.9197 0.0197 260.17);
+  --surface: oklch(0.9728 0.0057 264.53);
+  --hairline: oklch(0.9002 0.0102 264.5);
+
+  --shadow-card: 0 1px 2px oklch(0.3004 0.0729 260.18 / 6%);
+  --shadow-lift: 0 18px 48px -24px oklch(0.3004 0.0729 260.18 / 28%);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.022em;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-brand-pale);
+    color: var(--color-navy);
+  }
+}
+
+@utility container-apex {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  max-width: 84rem;
+}
+
+@utility eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+@utility display-1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 6vw, 4.75rem);
+  line-height: 1.03;
+  letter-spacing: -0.03em;
+}
+
+@utility display-2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.028em;
+}
+
+@utility display-3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.4vw, 2.125rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+@utility lead {
+  font-size: clamp(1.0625rem, 1.2vw, 1.25rem);
+  line-height: 1.65;
+  color: var(--color-muted-foreground);
+}
+
+@utility hairline-top {
+  border-top: 1px solid var(--color-hairline);
+}
+
+/* Restrained reveal motion */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal[data-visible="true"] {
+  opacity: 1;
+  transform: none;
+}
+
+.image-reveal img {
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.image-reveal:hover img {
+  transform: scale(1.035);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
