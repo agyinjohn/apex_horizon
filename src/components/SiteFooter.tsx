@@ -61,7 +61,7 @@ export function SiteFooter() {
 
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <Column
-              title="Apex"
+              title="gthink"
               links={[
                 { to: "/about", label: t("nav.about") },
                 { to: "/people", label: t("nav.ourPeople") },

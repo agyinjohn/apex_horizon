@@ -9,7 +9,7 @@ export function CareersTeaser() {
     <section className="border-t border-hairline bg-surface py-20 lg:py-28">
       <div className="container-apex grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-20">
         <Reveal>
-          <SectionLabel>{pick({ en: "Careers at Apex", fr: "Carrières chez Apex" })}</SectionLabel>
+          <SectionLabel>{pick({ en: "Careers at gthink", fr: "Carrières chez gthink" })}</SectionLabel>
           <h2 className="display-2 mt-6 text-navy">
             {pick({
               en: "Built by people who ask better questions.",
@@ -21,7 +21,7 @@ export function CareersTeaser() {
           <p className="lead max-w-xl">
             {pick({
               en: "We look for curiosity, rigour and a genuine commitment to clients — whether you are joining as an experienced professional, a graduate or an intern.",
-              fr: "Nous recherchons de la curiosité, de la rigueur et un engagement sincère envers les clients — que vous rejoigniez Apex en tant que professionnel expérimenté, diplômé ou stagiaire.",
+              fr: "Nous recherchons de la curiosité, de la rigueur et un engagement sincère envers les clients — que vous rejoigniez gthink en tant que professionnel expérimenté, diplômé ou stagiaire.",
             })}
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-x-10 gap-y-4">

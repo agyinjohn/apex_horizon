@@ -128,8 +128,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Risk & Governance partners", "Guest board chairs"],
-      fr: ["Associés Risques et gouvernance d'Apex", "Présidents de conseil invités"],
+      en: ["gthink Risk & Governance partners", "Guest board chairs"],
+      fr: ["Associés Risques et gouvernance de gthink", "Présidents de conseil invités"],
     },
   },
   {
@@ -199,8 +199,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Technology Advisory practice", "Guest cyber-security practitioner"],
-      fr: ["Pratique Conseil technologique d'Apex", "Praticien en cybersécurité invité"],
+      en: ["gthink Technology Advisory practice", "Guest cyber-security practitioner"],
+      fr: ["Pratique Conseil technologique de gthink", "Praticien en cybersécurité invité"],
     },
   },
   {
@@ -272,8 +272,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Transaction Advisory directors", "Apex Financial Advisory partners"],
-      fr: ["Directeurs Conseil en transactions d'Apex", "Associés Conseil financier d'Apex"],
+      en: ["gthink Transaction Advisory directors", "gthink Financial Advisory partners"],
+      fr: ["Directeurs Conseil en transactions de gthink", "Associés Conseil financier de gthink"],
     },
   },
   {
@@ -345,8 +345,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Risk & Governance practice, Abidjan"],
-      fr: ["Pratique Risques et gouvernance d'Apex, Abidjan"],
+      en: ["gthink Risk & Governance practice, Abidjan"],
+      fr: ["Pratique Risques et gouvernance de gthink, Abidjan"],
     },
   },
   {
@@ -418,8 +418,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Strategy & Transformation partners"],
-      fr: ["Associés Stratégie et transformation d'Apex"],
+      en: ["gthink Strategy & Transformation partners"],
+      fr: ["Associés Stratégie et transformation de gthink"],
     },
   },
   {
@@ -491,8 +491,8 @@ export const programmes: Programme[] = [
       ],
     },
     faculty: {
-      en: ["Apex Strategy & Transformation partners", "Lagos market leadership"],
-      fr: ["Associés Stratégie et transformation d'Apex", "Direction du marché de Lagos"],
+      en: ["gthink Strategy & Transformation partners", "Lagos market leadership"],
+      fr: ["Associés Stratégie et transformation de gthink", "Direction du marché de Lagos"],
     },
   },
 ];

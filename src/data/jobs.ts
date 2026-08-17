@@ -178,20 +178,20 @@ export const jobs: Job[] = [
     employmentType: { en: "Graduate Programme", fr: "Programme diplômés" },
     category: "graduate",
     overview: {
-      en: "A structured two-year foundation for final-year students and recent graduates: rotation across two advisory practices, formal training through Apex Academy, and early exposure to live client work.",
-      fr: "Un socle structuré de deux ans pour étudiants en dernière année et jeunes diplômés : rotation entre deux pratiques de conseil, formation formelle via Apex Academy et exposition précoce à des missions clients réelles.",
+      en: "A structured two-year foundation for final-year students and recent graduates: rotation across two advisory practices, formal training through gthink Academy, and early exposure to live client work.",
+      fr: "Un socle structuré de deux ans pour étudiants en dernière année et jeunes diplômés : rotation entre deux pratiques de conseil, formation formelle via gthink Academy et exposition précoce à des missions clients réelles.",
     },
     responsibilities: {
       en: [
         "Rotate across two advisory practices over the programme",
         "Support senior team members on live client engagements",
-        "Complete structured training modules through Apex Academy",
+        "Complete structured training modules through gthink Academy",
         "Take on a defined contribution within each engagement, reviewed by a manager",
       ],
       fr: [
         "Effectuer une rotation entre deux pratiques de conseil durant le programme",
         "Appuyer les membres seniors de l'équipe sur des missions clients réelles",
-        "Suivre des modules de formation structurés via Apex Academy",
+        "Suivre des modules de formation structurés via gthink Academy",
         "Assumer une contribution définie sur chaque mission, revue par un manager",
       ],
     },

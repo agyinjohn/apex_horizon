@@ -98,7 +98,7 @@ function IndustryDetail() {
           </Reveal>
           <Reveal delay={100}>
             <SectionLabel>
-              {pick({ en: "How Apex helps", fr: "Comment Apex accompagne" })}
+              {pick({ en: "How gthink helps", fr: "Comment gthink accompagne" })}
             </SectionLabel>
             <ul className="mt-8 border-t border-hairline">
               {pick(item.howWeHelp).map((point) => (

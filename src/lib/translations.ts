@@ -40,7 +40,7 @@ const en = {
     "gthink advisory consult brings together deep market knowledge, rigorous analysis and experienced professionals to help organisations address their most consequential business challenges.",
   "intro.p2":
     "From transactions and market entry to transformation, governance and growth, we combine African market understanding with international professional standards.",
-  "intro.cta": "Discover Apex",
+  "intro.cta": "Discover gthink",
   "stat.1": "Years of combined leadership experience",
   "stat.2": "Core markets",
   "stat.3": "Advisory engagements",
@@ -67,7 +67,7 @@ const en = {
   "footprint.office": "Office",
   "footprint.experience": "Assignment experience",
   "footprint.hint": "Select a market to view detail",
-  "footprint.mapLabel": "Map of Africa showing Apex operating and selected markets",
+  "footprint.mapLabel": "Map of Africa showing gthink operating and selected markets",
 
   // Expertise
   "expertise.label": "What we do",
@@ -132,7 +132,7 @@ const en = {
   "people.back": "All people",
 
   // Charter
-  "charter.label": "The Apex People Charter",
+  "charter.label": "The gthink People Charter",
   "charter.title": "How we work matters as much as what we deliver.",
 
   // Trust
@@ -159,7 +159,7 @@ const en = {
   "bilingual.t2": "Two languages.",
   "bilingual.t3": "Multiple markets.",
   "bilingual.body":
-    "Our bilingual platform allows clients, professionals and stakeholders across Anglophone and Francophone Africa to engage with Apex in the language that works for them.",
+    "Our bilingual platform allows clients, professionals and stakeholders across Anglophone and Francophone Africa to engage with gthink in the language that works for them.",
 
   // CTA
   "cta.label": "Start a conversation",
@@ -242,9 +242,9 @@ const en = {
   "about.storyLabel": "Our story",
   "about.storyTitle": "Building an African advisory firm with global ambition.",
   "about.storyBody":
-    "Apex was founded on a simple conviction: decisions taken in African markets deserve the same analytical rigour, independence and professional discipline expected anywhere in the world.",
+    "gthink was founded on a simple conviction: decisions taken in African markets deserve the same analytical rigour, independence and professional discipline expected anywhere in the world.",
   "about.watch": "Watch the film · 2 min",
-  "about.play": "Play the Apex story film",
+  "about.play": "Play the gthink story film",
   "about.purposeLabel": "Our purpose",
   "about.purposeTitle": "Better decisions build stronger institutions.",
   "about.purposeBody":
@@ -332,7 +332,7 @@ const en = {
     "Committed to responsible advice and internationally recognised professional standards.",
   "footer.disclaimer":
     "Concept demonstration. Certain names, statistics, engagements and professional profiles shown are illustrative.",
-  "footer.social": "Follow Apex",
+  "footer.social": "Follow gthink",
 
   // Cookies
   "cookie.title": "Your privacy matters",
@@ -372,7 +372,7 @@ const en = {
     "Already have a defined engagement? Send your Request for Proposal directly to the relevant team.",
   "nav.talkProposal": "Request a Proposal",
   "nav.talkProposalDesc":
-    "Tell us what you need and let Apex prepare an appropriate engagement approach.",
+    "Tell us what you need and let gthink prepare an appropriate engagement approach.",
   "nav.talkOffice": "Contact an Office",
   "nav.talkOfficeDesc": "Connect with our Accra or Abidjan office.",
   "nav.ourPeople": "Our People",
@@ -416,7 +416,7 @@ const fr: Record<DictKey, string> = {
     "gthink advisory consult réunit une connaissance approfondie des marchés, une analyse rigoureuse et des professionnels expérimentés pour aider les organisations à traiter leurs enjeux les plus déterminants.",
   "intro.p2":
     "Des transactions et de l'entrée sur de nouveaux marchés à la transformation, la gouvernance et la croissance, nous associons une compréhension fine des marchés africains aux standards professionnels internationaux.",
-  "intro.cta": "Découvrir Apex",
+  "intro.cta": "Découvrir gthink",
   "stat.1": "Années d'expérience cumulée à des postes de direction",
   "stat.2": "Marchés d'implantation",
   "stat.3": "Missions de conseil",
@@ -442,7 +442,7 @@ const fr: Record<DictKey, string> = {
   "footprint.experience": "Expérience de mission",
   "footprint.hint": "Sélectionnez un marché pour en savoir plus",
   "footprint.mapLabel":
-    "Carte de l'Afrique indiquant les marchés d'implantation et sélectionnés d'Apex",
+    "Carte de l'Afrique indiquant les marchés d'implantation et sélectionnés de gthink",
 
   "expertise.label": "Ce que nous faisons",
   "expertise.title": "Une expertise construite autour des décisions qui comptent.",
@@ -502,7 +502,7 @@ const fr: Record<DictKey, string> = {
   "people.linkedin": "Suivre sur LinkedIn",
   "people.back": "Toutes nos équipes",
 
-  "charter.label": "La charte humaine Apex",
+  "charter.label": "La charte humaine gthink",
   "charter.title": "Notre manière de travailler compte autant que nos livrables.",
 
   "trust.label": "La confiance se mérite",
@@ -526,7 +526,7 @@ const fr: Record<DictKey, string> = {
   "bilingual.t2": "Deux langues.",
   "bilingual.t3": "Plusieurs marchés.",
   "bilingual.body":
-    "Notre plateforme bilingue permet aux clients, professionnels et partenaires d'Afrique anglophone et francophone d'échanger avec Apex dans la langue qui leur convient.",
+    "Notre plateforme bilingue permet aux clients, professionnels et partenaires d'Afrique anglophone et francophone d'échanger avec gthink dans la langue qui leur convient.",
 
   "cta.label": "Engager la conversation",
   "cta.title": "Voir ce que d'autres pourraient manquer.",
@@ -607,9 +607,9 @@ const fr: Record<DictKey, string> = {
   "about.storyLabel": "Notre histoire",
   "about.storyTitle": "Construire un cabinet de conseil africain à l'ambition mondiale.",
   "about.storyBody":
-    "Apex est né d'une conviction simple : les décisions prises sur les marchés africains méritent la même rigueur analytique, la même indépendance et la même discipline professionnelle qu'ailleurs dans le monde.",
+    "gthink est né d'une conviction simple : les décisions prises sur les marchés africains méritent la même rigueur analytique, la même indépendance et la même discipline professionnelle qu'ailleurs dans le monde.",
   "about.watch": "Voir le film · 2 min",
-  "about.play": "Lancer le film Apex",
+  "about.play": "Lancer le film gthink",
   "about.purposeLabel": "Notre raison d'être",
   "about.purposeTitle": "De meilleures décisions bâtissent des institutions plus solides.",
   "about.purposeBody":
@@ -694,7 +694,7 @@ const fr: Record<DictKey, string> = {
     "Engagés pour un conseil responsable et des standards professionnels reconnus à l'international.",
   "footer.disclaimer":
     "Démonstration de concept. Certains noms, statistiques, missions et profils professionnels présentés sont illustratifs.",
-  "footer.social": "Suivre Apex",
+  "footer.social": "Suivre gthink",
 
   "cookie.title": "Votre confidentialité compte",
   "cookie.body":
@@ -734,7 +734,7 @@ const fr: Record<DictKey, string> = {
     "Votre mission est déjà définie ? Transmettez votre appel d'offres directement à l'équipe concernée.",
   "nav.talkProposal": "Demander une proposition",
   "nav.talkProposalDesc":
-    "Dites-nous ce dont vous avez besoin : Apex préparera une approche d'intervention adaptée.",
+    "Dites-nous ce dont vous avez besoin : gthink préparera une approche d'intervention adaptée.",
   "nav.talkOffice": "Contacter un bureau",
   "nav.talkOfficeDesc": "Joignez notre bureau d'Accra ou d'Abidjan.",
   "nav.ourPeople": "Nos équipes",

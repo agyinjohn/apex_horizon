@@ -9,13 +9,13 @@ import { upcomingProgrammes } from "@/data/programmes";
 export const Route = createFileRoute("/training/")({
   head: () => ({
     meta: [
-      { title: "Apex Academy — Professional Programmes & Bespoke Training" },
+      { title: "gthink Academy — Professional Programmes & Bespoke Training" },
       {
         name: "description",
         content:
-          "Apex Academy delivers governance, risk, strategy, finance and transformation programmes for individuals and bespoke training for organisations in Accra, Abidjan, Lagos and virtually.",
+          "gthink Academy delivers governance, risk, strategy, finance and transformation programmes for individuals and bespoke training for organisations in Accra, Abidjan, Lagos and virtually.",
       },
-      { property: "og:title", content: "Apex Academy — Learning for regulated organisations" },
+      { property: "og:title", content: "gthink Academy — Learning for regulated organisations" },
       {
         property: "og:description",
         content:
@@ -98,14 +98,14 @@ function AcademyPage() {
   return (
     <>
       <PageHero
-        label={pick({ en: "Apex Academy", fr: "Apex Academy" })}
+        label={pick({ en: "gthink Academy", fr: "gthink Academy" })}
         title={pick({
           en: "Capability, built before it is needed.",
           fr: "Des compétences bâties avant d'en avoir besoin.",
         })}
         body={pick({
-          en: "Apex Academy extends our advisory practice into learning. We work with individuals who want to sharpen judgement, and with organisations building the capability their governance, risk and growth agenda now demands.",
-          fr: "Apex Academy prolonge notre pratique de conseil dans la formation. Nous accompagnons les individus qui veulent affûter leur jugement et les organisations qui construisent les compétences exigées par leur agenda de gouvernance, de risques et de croissance.",
+          en: "gthink Academy extends our advisory practice into learning. We work with individuals who want to sharpen judgement, and with organisations building the capability their governance, risk and growth agenda now demands.",
+          fr: "gthink Academy prolonge notre pratique de conseil dans la formation. Nous accompagnons les individus qui veulent affûter leur jugement et les organisations qui construisent les compétences exigées par leur agenda de gouvernance, de risques et de croissance.",
         })}
       />
 
@@ -149,8 +149,8 @@ function AcademyPage() {
               </h2>
               <p className="mt-5 text-[1rem] leading-relaxed text-foreground/85">
                 {pick({
-                  en: "Programmes designed around one organisation's agenda and delivered at your offices, at Apex, virtually or in a hybrid format.",
-                  fr: "Des programmes conçus autour de l'agenda d'une organisation et animés dans vos bureaux, chez Apex, à distance ou en format hybride.",
+                  en: "Programmes designed around one organisation's agenda and delivered at your offices, at gthink, virtually or in a hybrid format.",
+                  fr: "Des programmes conçus autour de l'agenda d'une organisation et animés dans vos bureaux, chez gthink, à distance ou en format hybride.",
                 })}
               </p>
               <span className="mt-8 inline-flex items-center gap-2.5 text-[0.75rem] font-semibold tracking-[0.1em] text-primary uppercase">
@@ -282,15 +282,15 @@ function AcademyPage() {
             </SectionLabel>
             <h2 className="display-2 mt-8 text-white">
               {pick({
-                en: "Participants receive an Apex Academy certificate of completion.",
-                fr: "Les participants reçoivent une attestation d'Apex Academy.",
+                en: "Participants receive an gthink Academy certificate of completion.",
+                fr: "Les participants reçoivent une attestation d'gthink Academy.",
               })}
             </h2>
           </Reveal>
           <Reveal delay={80}>
             <p className="text-[0.9375rem] leading-relaxed text-white/70">
               {pick({
-                en: "Certificates record attendance, content covered and contact hours, so they can be submitted towards continuing professional development where your professional body permits. Apex Academy programmes and certificates shown here are illustrative content prepared for a concept demonstration.",
+                en: "Certificates record attendance, content covered and contact hours, so they can be submitted towards continuing professional development where your professional body permits. gthink Academy programmes and certificates shown here are illustrative content prepared for a concept demonstration.",
                 fr: "Les attestations mentionnent la présence, le contenu traité et les heures de formation, afin d'être présentées au titre du développement professionnel continu lorsque votre organisation professionnelle l'autorise. Les programmes et attestations présentés ici sont des contenus illustratifs préparés pour une démonstration de concept.",
               })}
             </p>

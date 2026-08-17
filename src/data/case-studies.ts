@@ -62,8 +62,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["research-market-intelligence", "business-financial-advisory"],
     year: "2026",
     mandate: {
-      en: "Apex was engaged to provide independent commercial due diligence and valuation ahead of the investor's capital-allocation decision.",
-      fr: "Apex a été mandaté pour fournir une due diligence commerciale et une évaluation indépendantes en amont de la décision d'allocation de capital de l'investisseur.",
+      en: "gthink was engaged to provide independent commercial due diligence and valuation ahead of the investor's capital-allocation decision.",
+      fr: "gthink a été mandaté pour fournir une due diligence commerciale et une évaluation indépendantes en amont de la décision d'allocation de capital de l'investisseur.",
     },
     challenge: {
       en: "An institutional investor was considering a significant stake in a mixed-use scheme combining offices, retail and serviced apartments. Absorption assumptions in the sponsor's business plan appeared optimistic relative to observable leasing activity in the district.",
@@ -96,8 +96,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["strategy-transformation", "technology-digital"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged by the executive committee to review the institution's strategy and redesign its operating model for the next phase of growth.",
-      fr: "Apex a été mandaté par le comité exécutif pour revoir la stratégie de l'institution et repenser son modèle opérationnel pour sa prochaine phase de croissance.",
+      en: "gthink was engaged by the executive committee to review the institution's strategy and redesign its operating model for the next phase of growth.",
+      fr: "gthink a été mandaté par le comité exécutif pour revoir la stratégie de l'institution et repenser son modèle opérationnel pour sa prochaine phase de croissance.",
     },
     challenge: {
       en: "Growth had outpaced the institution's operating model. Decision rights were unclear, cost-to-serve was rising and the branch network no longer matched where customers were being acquired.",
@@ -133,8 +133,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["research-market-intelligence", "strategy-transformation"],
     year: "2026",
     mandate: {
-      en: "Apex was engaged to design and stress-test a market-entry strategy for UEMOA markets ahead of investment commitment.",
-      fr: "Apex a été mandaté pour concevoir et éprouver une stratégie d'entrée sur les marchés de l'UEMOA avant tout engagement d'investissement.",
+      en: "gthink was engaged to design and stress-test a market-entry strategy for UEMOA markets ahead of investment commitment.",
+      fr: "gthink a été mandaté pour concevoir et éprouver une stratégie d'entrée sur les marchés de l'UEMOA avant tout engagement d'investissement.",
     },
     challenge: {
       en: "A European consumer group wanted to enter UEMOA markets but lacked reliable data on channel structure, pricing ladders and the practical realities of distribution outside the main cities.",
@@ -170,8 +170,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["business-financial-advisory"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged by the lender to provide independent assurance over the financial model underpinning the facility.",
-      fr: "Apex a été mandaté par le prêteur pour fournir une assurance indépendante sur le modèle financier sous-tendant le financement.",
+      en: "gthink was engaged by the lender to provide independent assurance over the financial model underpinning the facility.",
+      fr: "gthink a été mandaté par le prêteur pour fournir une assurance indépendante sur le modèle financier sous-tendant le financement.",
     },
     challenge: {
       en: "A lender required independent assurance over a development model underpinning a substantial facility, in a currency and cost environment that had shifted materially since the model was built.",
@@ -203,8 +203,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["transaction-advisory", "business-financial-advisory"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged to assess the commercial and financial viability of the generation asset ahead of the fund's investment decision.",
-      fr: "Apex a été mandaté pour évaluer la viabilité commerciale et financière de l'actif de production avant la décision d'investissement du fonds.",
+      en: "gthink was engaged to assess the commercial and financial viability of the generation asset ahead of the fund's investment decision.",
+      fr: "gthink a été mandaté pour évaluer la viabilité commerciale et financière de l'actif de production avant la décision d'investissement du fonds.",
     },
     challenge: {
       en: "An infrastructure fund was assessing a generation asset whose returns depended on offtake reliability and tariff structure rather than technical performance.",
@@ -237,8 +237,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["research-market-intelligence", "strategy-transformation"],
     year: "2024",
     mandate: {
-      en: "Apex was engaged to develop a transparent, evidence-based framework for prioritising the institution's infrastructure pipeline.",
-      fr: "Apex a été mandaté pour élaborer un cadre transparent et fondé sur des données afin de prioriser le portefeuille d'infrastructures de l'institution.",
+      en: "gthink was engaged to develop a transparent, evidence-based framework for prioritising the institution's infrastructure pipeline.",
+      fr: "gthink a été mandaté pour élaborer un cadre transparent et fondé sur des données afin de prioriser le portefeuille d'infrastructures de l'institution.",
     },
     challenge: {
       en: "A public institution needed to prioritise a long pipeline of candidate projects with limited comparable data and competing stakeholder expectations.",
@@ -270,8 +270,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["technology-digital", "strategy-transformation"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged to review the operator's digital-channel architecture and recommend a target operating model.",
-      fr: "Apex a été mandaté pour examiner l'architecture des canaux numériques de l'opérateur et recommander un modèle opérationnel cible.",
+      en: "gthink was engaged to review the operator's digital-channel architecture and recommend a target operating model.",
+      fr: "gthink a été mandaté pour examiner l'architecture des canaux numériques de l'opérateur et recommander un modèle opérationnel cible.",
     },
     challenge: {
       en: "Digital channels had been launched quickly and now duplicated processes handled by retail and call-centre teams, raising cost without improving service.",
@@ -303,8 +303,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["risk-governance"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged by the board to review governance arrangements and the enterprise risk framework following portfolio growth.",
-      fr: "Apex a été mandaté par le conseil pour examiner les dispositifs de gouvernance et le cadre de gestion des risques à la suite de la croissance du portefeuille.",
+      en: "gthink was engaged by the board to review governance arrangements and the enterprise risk framework following portfolio growth.",
+      fr: "gthink a été mandaté par le conseil pour examiner les dispositifs de gouvernance et le cadre de gestion des risques à la suite de la croissance du portefeuille.",
     },
     challenge: {
       en: "Following portfolio growth, the board sought assurance that delegated authorities, credit governance and risk reporting remained proportionate to the institution's mandate.",
@@ -339,8 +339,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["business-financial-advisory", "research-market-intelligence"],
     year: "2026",
     mandate: {
-      en: "Apex was engaged to test the feasibility and bankability of local production against continued importation.",
-      fr: "Apex a été mandaté pour tester la faisabilité et la bancabilité d'une production locale face à la poursuite de l'importation.",
+      en: "gthink was engaged to test the feasibility and bankability of local production against continued importation.",
+      fr: "gthink a été mandaté pour tester la faisabilité et la bancabilité d'une production locale face à la poursuite de l'importation.",
     },
     challenge: {
       en: "An industrial group weighed local production against continued importation, with the decision hinging on input costs, tariff treatment and realistic demand.",
@@ -375,8 +375,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["strategy-transformation", "business-financial-advisory"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged to assess store-level profitability and recommend an investment and rationalisation plan for the network.",
-      fr: "Apex a été mandaté pour évaluer la rentabilité par point de vente et recommander un plan d'investissement et de rationalisation du réseau.",
+      en: "gthink was engaged to assess store-level profitability and recommend an investment and rationalisation plan for the network.",
+      fr: "gthink a été mandaté pour évaluer la rentabilité par point de vente et recommander un plan d'investissement et de rationalisation du réseau.",
     },
     challenge: {
       en: "Aggregate performance masked wide variation between stores, and the group lacked a consistent basis for deciding where to invest, refit or exit.",
@@ -411,8 +411,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["transaction-advisory", "research-market-intelligence"],
     year: "2026",
     mandate: {
-      en: "Apex was engaged to provide commercial diligence on the logistics platform ahead of the investor's transaction decision.",
-      fr: "Apex a été mandaté pour fournir une due diligence commerciale sur la plateforme logistique avant la décision de transaction de l'investisseur.",
+      en: "gthink was engaged to provide commercial diligence on the logistics platform ahead of the investor's transaction decision.",
+      fr: "gthink a été mandaté pour fournir une due diligence commerciale sur la plateforme logistique avant la décision de transaction de l'investisseur.",
     },
     challenge: {
       en: "A regional investor needed to understand whether contracted warehousing demand would persist beyond the current tenant cohort.",
@@ -447,8 +447,8 @@ export const caseStudies: CaseStudy[] = [
     serviceSlugs: ["research-market-intelligence"],
     year: "2025",
     mandate: {
-      en: "Apex was engaged to assess commercial and industrial willingness to pay ahead of the developer's pipeline commitment.",
-      fr: "Apex a été mandaté pour évaluer la disposition à payer des utilisateurs commerciaux et industriels avant l'engagement du développeur sur son portefeuille de projets.",
+      en: "gthink was engaged to assess commercial and industrial willingness to pay ahead of the developer's pipeline commitment.",
+      fr: "gthink a été mandaté pour évaluer la disposition à payer des utilisateurs commerciaux et industriels avant l'engagement du développeur sur son portefeuille de projets.",
     },
     challenge: {
       en: "A developer needed a defensible view of willingness to pay among commercial and industrial energy users before committing to a pipeline.",

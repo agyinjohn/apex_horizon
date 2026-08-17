@@ -19,13 +19,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/training/corporate")({
   head: () => ({
     meta: [
-      { title: "Bespoke Corporate Training — Apex Academy" },
+      { title: "Bespoke Corporate Training — gthink Academy" },
       {
         name: "description",
         content:
-          "Tailored governance, risk, strategy and finance training designed around your organisation and delivered at your offices, at Apex, virtually or hybrid.",
+          "Tailored governance, risk, strategy and finance training designed around your organisation and delivered at your offices, at gthink, virtually or hybrid.",
       },
-      { property: "og:title", content: "Bespoke Corporate Training — Apex Academy" },
+      { property: "og:title", content: "Bespoke Corporate Training — gthink Academy" },
       {
         property: "og:description",
         content: "Programmes designed around one organisation's agenda, in English or French.",
@@ -57,7 +57,7 @@ function BespokePage() {
     },
     {
       number: "02",
-      title: { en: "At Apex", fr: "Chez Apex" },
+      title: { en: "At gthink", fr: "Chez gthink" },
       body: {
         en: "Hosted in Accra or Abidjan, away from daily interruptions, with faculty available across the day.",
         fr: "À Accra ou Abidjan, à l'écart des interruptions quotidiennes, avec les intervenants disponibles toute la journée.",
@@ -329,7 +329,7 @@ function BespokePage() {
                         label={pick({ en: "Preferred delivery", fr: "Modalité souhaitée" })}
                         options={[
                           { value: "your-offices", label: pick({ en: "At your offices", fr: "Dans vos bureaux" }) },
-                          { value: "at-apex", label: pick({ en: "At Apex", fr: "Chez Apex" }) },
+                          { value: "at-apex", label: pick({ en: "At gthink", fr: "Chez gthink" }) },
                           { value: "virtual", label: pick({ en: "Virtual", fr: "À distance" }) },
                           { value: "hybrid", label: pick({ en: "Hybrid", fr: "Hybride" }) },
                         ]}
@@ -401,8 +401,8 @@ function BespokePage() {
                       />
                       <ConsentField
                         label={pick({
-                          en: "I agree that Apex may contact me about this training enquiry. Information is handled under professional confidentiality obligations.",
-                          fr: "J'accepte qu'Apex me contacte au sujet de cette demande de formation. Les informations sont traitées sous obligation de confidentialité professionnelle.",
+                          en: "I agree that gthink may contact me about this training enquiry. Information is handled under professional confidentiality obligations.",
+                          fr: "J'accepte que gthink me contacte au sujet de cette demande de formation. Les informations sont traitées sous obligation de confidentialité professionnelle.",
                         })}
                       />
                     </>

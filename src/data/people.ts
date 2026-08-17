@@ -103,12 +103,12 @@ export const people: Person[] = [
     office: { en: "Abidjan, Côte d'Ivoire", fr: "Abidjan, Côte d'Ivoire" },
     bio: {
       en: [
-        "Amélie leads Apex's Francophone West Africa practice from Abidjan and advises international companies entering the region.",
+        "Amélie leads gthink's Francophone West Africa practice from Abidjan and advises international companies entering the region.",
         "Her work focuses on market entry, distribution strategy and commercial diligence for consumer, retail and industrial clients, with a particular emphasis on the regulatory and route-to-market differences between UEMOA countries.",
         "She works fluently in French and English and regularly supports bilingual executive teams and investment committees.",
       ],
       fr: [
-        "Amélie dirige la practice Afrique de l'Ouest francophone d'Apex depuis Abidjan et conseille les entreprises internationales s'implantant dans la région.",
+        "Amélie dirige la practice Afrique de l'Ouest francophone de gthink depuis Abidjan et conseille les entreprises internationales s'implantant dans la région.",
         "Ses travaux portent sur l'entrée sur le marché, la stratégie de distribution et la due diligence commerciale pour des clients de la consommation, de la distribution et de l'industrie, avec une attention particulière aux différences réglementaires et de distribution au sein de l'UEMOA.",
         "Elle travaille couramment en français et en anglais et accompagne régulièrement des comités de direction et d'investissement bilingues.",
       ],
@@ -228,12 +228,12 @@ export const people: Person[] = [
     office: { en: "Accra, Ghana", fr: "Accra, Ghana" },
     bio: {
       en: [
-        "Kwame leads valuation and financial-modelling work across Apex's transaction engagements.",
+        "Kwame leads valuation and financial-modelling work across gthink's transaction engagements.",
         "He has built and reviewed models for property developments, energy assets and operating businesses, and is often engaged where an investment committee needs an independent view of the numbers.",
         "He works closely with clients' finance teams to leave behind models they can maintain and defend.",
       ],
       fr: [
-        "Kwame dirige les travaux d'évaluation et de modélisation financière des missions transactionnelles d'Apex.",
+        "Kwame dirige les travaux d'évaluation et de modélisation financière des missions transactionnelles de gthink.",
         "Il a construit et revu des modèles pour des projets immobiliers, des actifs énergétiques et des entreprises en exploitation, et intervient souvent lorsqu'un comité d'investissement a besoin d'un regard indépendant sur les chiffres.",
         "Il travaille étroitement avec les directions financières afin de laisser des modèles maintenables et défendables.",
       ],

@@ -9,11 +9,11 @@ import { offices } from "@/data/markets";
 export const Route = createFileRoute("/engage")({
   head: () => ({
     meta: [
-      { title: "Engage Apex — Advisory, RFP, Training & Careers" },
+      { title: "Engage gthink — Advisory, RFP, Training & Careers" },
       {
         name: "description",
         content:
-          "Four clear routes into gthink advisory consult: advisory support, a formal RFP, Apex Academy training, or a career with the firm.",
+          "Four clear routes into gthink advisory consult: advisory support, a formal RFP, gthink Academy training, or a career with the firm.",
       },
       { property: "og:title", content: "Engage gthink advisory consult" },
       {
@@ -63,7 +63,7 @@ function EngagePage() {
     {
       number: "03",
       to: "/academy",
-      title: { en: "Apex Academy", fr: "Apex Academy" },
+      title: { en: "gthink Academy", fr: "gthink Academy" },
       lede: {
         en: "Professional programmes for individuals and bespoke training for organisations.",
         fr: "Programmes professionnels pour les individus et formations sur mesure pour les organisations.",

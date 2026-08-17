@@ -125,7 +125,7 @@ function CareersPage() {
   return (
     <>
       <PageHero
-        label={pick({ en: "Careers at Apex", fr: "Carrières chez Apex" })}
+        label={pick({ en: "Careers at gthink", fr: "Carrières chez gthink" })}
         title={pick({
           en: "A career built on better questions.",
           fr: "Une carrière fondée sur de meilleures questions.",
@@ -236,8 +236,8 @@ function CareersPage() {
             </h2>
             <p className="mt-6 text-[0.9375rem] leading-relaxed text-muted-foreground">
               {pick({
-                en: "Join our talent network and let us know what you could bring to Apex. Most of our senior appointments begin as a conversation months before a role is published.",
-                fr: "Rejoignez notre réseau de talents et dites-nous ce que vous pourriez apporter à Apex. La plupart de nos nominations seniors commencent par un échange, des mois avant la publication d'un poste.",
+                en: "Join our talent network and let us know what you could bring to gthink. Most of our senior appointments begin as a conversation months before a role is published.",
+                fr: "Rejoignez notre réseau de talents et dites-nous ce que vous pourriez apporter à gthink. La plupart de nos nominations seniors commencent par un échange, des mois avant la publication d'un poste.",
               })}
             </p>
             <p className="mt-6 text-[0.8125rem] leading-relaxed text-muted-foreground italic">
@@ -349,8 +349,8 @@ function CareersPage() {
                 </div>
                 <ConsentField
                   label={pick({
-                    en: "I agree that Apex may hold my details confidentially and contact me about suitable opportunities.",
-                    fr: "J'accepte qu'Apex conserve mes données de manière confidentielle et me contacte pour des opportunités adaptées.",
+                    en: "I agree that gthink may hold my details confidentially and contact me about suitable opportunities.",
+                    fr: "J'accepte que gthink conserve mes données de manière confidentielle et me contacte pour des opportunités adaptées.",
                   })}
                 />
                 <FormError message={error} />

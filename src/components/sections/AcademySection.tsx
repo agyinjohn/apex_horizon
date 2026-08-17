@@ -29,7 +29,7 @@ const formats = [
 ];
 
 /**
- * Homepage teaser for Apex Academy — professional development business line.
+ * Homepage teaser for gthink Academy — professional development business line.
  */
 export function AcademySection() {
   const { pick } = useLang();
@@ -41,7 +41,7 @@ export function AcademySection() {
         <div className="flex flex-wrap items-end justify-between gap-8">
           <div>
             <Reveal>
-              <SectionLabel>{pick({ en: "Apex Academy", fr: "Apex Academy" })}</SectionLabel>
+              <SectionLabel>{pick({ en: "gthink Academy", fr: "gthink Academy" })}</SectionLabel>
             </Reveal>
             <Reveal delay={80}>
               <h2 className="display-2 mt-6 max-w-2xl text-navy">

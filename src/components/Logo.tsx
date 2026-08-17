@@ -18,7 +18,7 @@ export function Logo({ tone = "dark", className, onNavigate }: Props) {
           tone === "light" ? "text-white" : "text-navy",
         )}
       >
-        APEX
+        GTHINK
       </span>
       <span
         className={cn(
@@ -26,7 +26,7 @@ export function Logo({ tone = "dark", className, onNavigate }: Props) {
           tone === "light" ? "text-white/70" : "text-primary",
         )}
       >
-        ADVISORY GROUP
+        ADVISORY CONSULT
       </span>
     </AppLink>
   );

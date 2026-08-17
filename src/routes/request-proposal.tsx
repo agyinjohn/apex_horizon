@@ -24,7 +24,7 @@ export const Route = createFileRoute("/request-proposal")({
       {
         name: "description",
         content:
-          "Tell us what you need and let Apex prepare an appropriate engagement approach. A lighter route for prospects without a formal RFP.",
+          "Tell us what you need and let gthink prepare an appropriate engagement approach. A lighter route for prospects without a formal RFP.",
       },
       { property: "og:title", content: "Request a Proposal — gthink advisory consult" },
       {
@@ -75,8 +75,8 @@ function RequestProposalPage() {
         label={pick({ en: "Request a Proposal", fr: "Demande de proposition" })}
         title={pick({ en: "Ask us for a proposal.", fr: "Demandez-nous une proposition." })}
         body={pick({
-          en: "Tell us what you need and let Apex prepare an appropriate engagement approach.",
-          fr: "Décrivez-nous votre besoin et Apex préparera une approche d'intervention adaptée.",
+          en: "Tell us what you need and let gthink prepare an appropriate engagement approach.",
+          fr: "Décrivez-nous votre besoin et gthink préparera une approche d'intervention adaptée.",
         })}
       />
 
@@ -143,8 +143,8 @@ function RequestProposalPage() {
                 />
                 <ConsentField
                   label={pick({
-                    en: "I confirm Apex may review this request and contact me about it.",
-                    fr: "Je confirme qu'Apex peut examiner cette demande et me contacter à ce sujet.",
+                    en: "I confirm gthink may review this request and contact me about it.",
+                    fr: "Je confirme que gthink peut examiner cette demande et me contacter à ce sujet.",
                   })}
                 />
                 <FormError message={error} />

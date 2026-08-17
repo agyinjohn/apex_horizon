@@ -26,13 +26,13 @@ export const Route = createFileRoute("/training/programmes/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Programme unavailable — Apex Academy" },
+          { title: "Programme unavailable — gthink Academy" },
           { name: "robots", content: "noindex" },
         ],
       };
     }
     const programme = programmes.find((p) => p.slug === loaderData.slug)!;
-    const title = `${programme.title.en} — Apex Academy`;
+    const title = `${programme.title.en} — gthink Academy`;
     return {
       meta: [
         { title },
@@ -245,8 +245,8 @@ function ProgrammeDetail() {
                     />
                     <ConsentField
                       label={pick({
-                        en: "I agree that Apex may contact me about this programme.",
-                        fr: "J'accepte qu'Apex me contacte au sujet de ce programme.",
+                        en: "I agree that gthink may contact me about this programme.",
+                        fr: "J'accepte que gthink me contacte au sujet de ce programme.",
                       })}
                     />
                     <FormError message={error} />
@@ -274,8 +274,8 @@ function ProgrammeDetail() {
               </h2>
               <p className="mt-4 max-w-xl text-[0.9375rem] leading-relaxed text-muted-foreground">
                 {pick({
-                  en: "We can adapt this content into a bespoke session for your team, delivered at your offices, at Apex, or virtually.",
-                  fr: "Nous pouvons adapter ce contenu en une session sur mesure pour votre équipe, animée dans vos bureaux, chez Apex ou à distance.",
+                  en: "We can adapt this content into a bespoke session for your team, delivered at your offices, at gthink, or virtually.",
+                  fr: "Nous pouvons adapter ce contenu en une session sur mesure pour votre équipe, animée dans vos bureaux, chez gthink ou à distance.",
                 })}
               </p>
             </div>

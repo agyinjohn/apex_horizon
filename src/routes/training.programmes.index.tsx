@@ -17,13 +17,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/training/programmes/")({
   head: () => ({
     meta: [
-      { title: "Upcoming Programmes — Apex Academy" },
+      { title: "Upcoming Programmes — gthink Academy" },
       {
         name: "description",
         content:
-          "Browse upcoming Apex Academy masterclasses by topic, location and language — Accra, Abidjan, Lagos and virtual sessions in English and French.",
+          "Browse upcoming gthink Academy masterclasses by topic, location and language — Accra, Abidjan, Lagos and virtual sessions in English and French.",
       },
-      { property: "og:title", content: "Upcoming Programmes — Apex Academy" },
+      { property: "og:title", content: "Upcoming Programmes — gthink Academy" },
       {
         property: "og:description",
         content: "Governance, risk, strategy, finance and transformation masterclasses.",
@@ -87,7 +87,7 @@ function ProgrammesPage() {
   return (
     <>
       <PageHero
-        label={pick({ en: "Apex Academy", fr: "Apex Academy" })}
+        label={pick({ en: "gthink Academy", fr: "gthink Academy" })}
         title={pick({ en: "Upcoming programmes.", fr: "Programmes à venir." })}
         body={pick({
           en: "Open enrolment masterclasses for senior professionals. Cohorts are small, sessions are practitioner-led, and every programme is available in the working language of the market it is delivered in.",
